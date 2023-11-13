@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Modificar Policia";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Modificar Policia</h1>
+    <br><br><br>
+    <h3><u>Completa el formulario para modificar un policia</u></h3><br>
+</div>
+    
+    <form method="post" autocomplete="off" action='@Url.Action("GuardarPolicia2", "Home")'>
+        @Html.AntiForgeryToken()
+        <div style="margin-left: 39%;">
+            <input type="hidden" name="Idpolicia" value="@ViewBag.Id" />
+            DNI: <input type="text" name="DNI" size="29" maxlength="8" minlength="8" value="@ViewBag.DNI" required /><br><br>
+            Nombre Completo: <input type="text" name="nombre" size="15" value="@ViewBag.Nombre" required /><br><br>
+            N° de Placa: <input type="text" name="numeroPlaca" size="22" value="@ViewBag.NumeroPlaca" maxlength="5" minlength="5" required /><br><br>
+            Rol: <label multiple for="FkRoles" type="text" name="FkRoles"  value="@ViewBag.Rol" required></label>
+            <select name="FkRoles" id="FkRoles">
+                @foreach (Roles r in ViewBag.ListaRoles)
+                {
+                    if(r.IdRol != ViewBag.Rol)
+                    {
+                        <option value="@r.IdRol">@r.Rol</option>
+                    }else
+                    {
+                        <option value="@r.IdRol" selected>@r.Rol</option>
+                    }
+                }
+            </select><br><br>
+            Fecha Nacimiento: <input type="date" name="fechaNacimiento" size="20" value='@(((DateTime)ViewBag.FechaNacimiento).ToString("yyyy-MM-dd"))' required /><br><br>
+            <input type="hidden" name="password" size="22"  value="@ViewBag.Password" required /><br><br>
+        </div>
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Guardar Policia">
+            <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+            <br><br>
+            <a href='@Url.Action("ListarPolicias", "Home")' class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+

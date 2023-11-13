@@ -1,0 +1,121 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.navbar[b-q0a04yuu0e] {
+  background-color: #1a1a1a; /* Color de fondo */
+  border-bottom: 2px solid #007bff; /* Borde inferior */
+  border-radius: 0; /* Esquina cuadrada */
+  transition: background-color 0.3s; /* Transición de color suave */
+}
+
+.navbar-brand[b-q0a04yuu0e] {
+  color: #6f9ee6; /* Color del texto del logotipo */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  transition: font-size 0.3s; /* Transición de tamaño de fuente suave */
+}
+
+.navbar-toggler-icon[b-q0a04yuu0e] {
+  background-color: #6f9ee6; /* Color del ícono del botón de menú */
+}
+
+.navbar-nav .nav-link[b-q0a04yuu0e] {
+  color: #fff; /* Color de texto de los enlaces */
+  font-weight: bold; /* Grosor de la fuente */
+  transition: color 0.3s, font-size 0.3s; /* Transiciones suaves de color y tamaño de fuente */
+}
+
+.navbar-nav .navbar .navbar-brand .nav-link:hover[b-q0a04yuu0e] {
+  color: #6f9ee6; /* Color de texto al pasar el mouse por encima */
+  font-size: 30px; /* Tamaño de fuente aumentado al pasar el mouse por encima */
+}
+
+a.navbar-brand[b-q0a04yuu0e] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-q0a04yuu0e] {
+  color: #0077cc;
+}
+
+.btn-primary[b-q0a04yuu0e] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-q0a04yuu0e], .nav-pills .show > .nav-link[b-q0a04yuu0e] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-q0a04yuu0e] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-q0a04yuu0e] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-q0a04yuu0e] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-q0a04yuu0e] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-q0a04yuu0e] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+form[b-q0a04yuu0e] {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"][b-q0a04yuu0e],
+input[type="email"][b-q0a04yuu0e] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"][b-q0a04yuu0e] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Estilo para etiquetas de formulario */
+form label[b-q0a04yuu0e] {
+  font-weight: bold;
+}
+
+/* Estilo para campos de entrada */
+form input[type="text"][b-q0a04yuu0e],
+form input[type="email"][b-q0a04yuu0e] {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* Estilo para el botón de envío */
+form button[type="submit"][b-q0a04yuu0e] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

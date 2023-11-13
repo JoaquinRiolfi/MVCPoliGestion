@@ -1,0 +1,143 @@
+@{
+    ViewData["Title"] = "Agregar Ruta";
+}
+
+<h1 class="text-center display-4" style="color: rgb(0, 0, 0);">Ruta del Policia</h1>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div id="googleMap" style="height:600px;width:100%;"></div>
+<script>
+    var clickCount = 0;
+    var areInputsLocked = false;
+
+    function lockInputsF() {
+        areInputsLocked = true;
+        document.getElementById("LongitudFinal").readOnly = true;
+        document.getElementById("LatitudFinal").readOnly = true;
+    }function lockInputsI() {
+        document.getElementById("LongitudInicial").readOnly = true;
+        document.getElementById("LatitudInicial").readOnly = true;
+    }
+
+    function unlockInputsF() {
+        areInputsLocked = false;
+        document.getElementById("LongitudFinal").readOnly = false;
+        document.getElementById("LatitudFinal").readOnly = false;
+    }function unlockInputsI() {
+        document.getElementById("LongitudInicial").readOnly = false;
+        document.getElementById("LatitudInicial").readOnly = false;
+    }
+
+    function getAddress(latLng, callback) {
+        var geocoder = new google.maps.Geocoder();
+
+        geocoder.geocode({ 'location': latLng }, function (results, status) {
+            if (status === 'OK') {
+                if (results[0]) {
+                    callback(results[0].formatted_address);
+                } else {
+                    callback('No se encontró ninguna dirección.');
+                }
+            } else {
+                callback('Error en la geocodificación inversa: ' + status);
+            }
+        });
+    }
+
+    function myMap() {
+        var myCenter = new google.maps.LatLng(-34.60992517508599, -58.42915358393952);
+        var mapProp = { center: myCenter, zoom: 12, scrollwheel: true, draggable: true, mapTypeId: google.maps.MapTypeId.ROADMAP };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+        var infoWindow = new google.maps.InfoWindow();
+
+        map.addListener("click", (mapsMouseEvent) => {
+            infoWindow.close();
+            infoWindow = new google.maps.InfoWindow({
+                position: mapsMouseEvent.latLng,
+            });
+
+            var latLng = mapsMouseEvent.latLng.toJSON();
+            getAddress(mapsMouseEvent.latLng, function (address) {
+                var content = '<div style="color: black;">' +
+                    '<strong>Coordenadas:</strong> ' + JSON.stringify(latLng, null, 2) +
+                    '<br><strong>Dirección:</strong> ' + address +
+                    '</div>';
+
+                infoWindow.setContent(content);
+                infoWindow.open(map);
+            });
+
+            if (areInputsLocked && clickCount >= 2) {
+                // Show a confirmation message after the third click
+                if (confirm("¿Estás seguro de cambiar las coordenadas?")) {
+                    unlockInputsF();
+                    unlockInputsI();
+                }
+            } else {
+                var inputLongitud;
+                var inputLatitud;
+                var inputAddress;
+
+                if (areInputsLocked) {
+                    inputLongitud = document.getElementById("LongitudFinal");
+                    inputLatitud = document.getElementById("LatitudFinal");
+                    inputAddress = document.getElementById("DireccionFinal");
+                } else {
+                    inputLongitud = document.getElementById("LongitudInicial");
+                    inputLatitud = document.getElementById("LatitudInicial");
+                    inputAddress = document.getElementById("DireccionInicial");
+                    lockInputsF();
+                    lockInputsI();
+                }
+
+                inputLongitud.value = latLng.lng;
+                inputLatitud.value = latLng.lat;
+                inputAddress.value = address;
+                clickCount++;
+            }
+        });
+    }
+
+    window.onload = function () {
+        myMap();
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkCKeu_FpJbUjTPT2gBEmwZXOa6u24eVA&callback=myMap"></script>
+
+<br>
+<h2 class="text-center">Rellene los datos para una nueva ruta</h2>
+<br>
+<form method="post" autocomplete="off" action='@Url.Action("GuardarRuta", "Home", new { idPolicia = @ViewBag.IDPolicia })'>
+    <div style="margin-left: 39%;">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="IdRuta" value="@ViewBag.IdRuta">
+        <input type="hidden" name="IdPolicia" value="@ViewBag.IDPolicia">
+        Longitud Inicial: <input type="text" id="LongitudInicial" name="LongitudInicial" size="20" step="any" required><br><br>
+        Latitud Inicial: <input type="text" id="LatitudInicial" name="LatitudInicial" size="20" step="any" required><br><br>
+        Direccion Inicial: <input type="text" name="DireccionInicial" id="DireccionInicial" size="20" required><br><br>
+        Longitud Final: <input type="text" id="LongitudFinal" name="LongitudFinal" size="20" step="any" required><br><br>
+        Latitud Final: <input type="text" id="LatitudFinal" name="LatitudFinal" size="20" step="any" required><br><br>
+        Direccion Final: <input type="text" name="DireccionFinal" id="DireccionFinal" size="20" required><br><br>
+        Hora Inicial: <input type="time" name="HoraInicial" size="20" required><br><br>
+        Hora Final: <input type="time" name="HoraFinal" size="20" required><br><br>
+        Fecha Creacion: <input type="date" name="FechaCreacion" size="20" required><br><br>
+        Limite Validez: <input type="date" name="LimiteValidez" size="20" required><br><br>
+        <select name="FkDia" id="FkDia" class="custom-select">
+            @foreach (Dias d in ViewBag.ListaDia)
+            {
+                <option value="@d.IdDia">@d.Dia</option>
+            }
+        </select><br><br>
+    </div>
+    <div class="text-center ponele">
+        <input class="btn btn-primary" type="submit" value="Guardar Ruta">
+        <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+        <br><br>
+        <a href='@Url.Action("ListarPolicias", "Home")' class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>

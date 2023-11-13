@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Rutas</title>
+    
+</head>
+<body>
+    <h1 class="text-center display-4">Listado de Rutas</h1><br>
+    
+    
+    
+
+    <div class="text-center">
+        <a class="btn btn-primary" href='@Url.Action("AgregarRuta","Home", new { idPolicia = @ViewBag.IdPolicia })'>Agregar Ruta</a>
+                  
+        <div>
+            <table> 
+                <tr>
+                    <th>Id</th>
+                    <th>Longitud Inicial</th>
+                    <th>Latitud Inicial</th>
+                    <th>Direccion Inicial</th>
+                    <th>Longitud Final</th>
+                    <th>Latitud Final</th>
+                    <th>Direccion Final</th>
+                    <th>Hora Inicial</th>
+                    <th>Hora Final</th>
+                    <th>Fecha Creacion</th>
+                    <th>Limite Validez</th>
+                    <th>Policia</th>
+                    <th>Eliminar</th>
+                </tr>
+                @foreach(Ruta a in ViewBag.Listar) 
+                {
+                    <tr>
+                        <td>@a.IdRuta</td>
+                        <td>@a.LongitudInicial</td>
+                        <td>@a.LatitudInicial</td>
+                        <td>@a.DireccionInicial</td>
+                        <td>@a.LongitudFinal</td>
+                        <td>@a.LatitudFinal</td>
+                        <td>@a.DireccionFinal</td>
+                        <td>@a.HoraInicial</td>
+                        <td>@a.HoraFinal</td>
+                        <td>@(((DateTime)a.FechaCreacion).ToString("dd/MM/yyyy"))</td>
+                        <td>@(((DateTime)a.LimiteValidez).ToString("dd/MM/yyyy"))</td>
+                        <td>@a.FKPolicia</td>
+                        <td>
+                            <form method="post" action='@Url.Action("EliminarRuta", "Home", new { idRuta = a.IdRuta })'>
+                                @Html.AntiForgeryToken()
+                                <button onclick="return confirm('¿Estás seguro?');" type="submit" class="btn btn-danger">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </table> 
+        </div>   
+    </div>
+</body>
+</html>

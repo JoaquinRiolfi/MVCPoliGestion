@@ -1,0 +1,84 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4 ">Listado de Policias</h1><br>
+        <div class="form-group">
+            <label for="searchInput">Buscar por Nombre:</label>
+            <div style="display: flex; align-items: center;">
+                <input type="text" class="form-control" id="searchInput" placeholder="Ingrese el nombre del policía" style="margin-right: 10px;">
+                <button class="btn btn-light" id="searchButton">🔎</button>
+            </div>
+        </div><br>
+        <a class="btn btn-primary" href='@Url.Action("AgregarPolicia", "Home")'>Agregar Policia</a><br><br>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Numero Placa</th>
+                    <th>Rol</th>
+                    <th>Policia</th>
+                    <th>Fecha Nacimiento</th>
+                    <th>Eliminar</th>
+                    <th>Actualizar</th>
+                    <th>Ruta</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Policia a in ViewBag.Lista)
+                {
+                    <tr>
+                        <td class="text-white">@a.DNI</td>
+                        <td class="text-white">@a.Nombre</td>
+                        <td class="text-white">@a.NumeroPlaca</td>
+                        <td class="text-white">@a.FkRoles</td>
+                        <td class="text-white">@a.Idpolicia</td>
+                        <td class="text-white">@(((DateTime)a.FechaNacimiento).ToString("dd/MM/yyyy"))</td>
+                        <td class="text-white">
+                            <form method="post" action='@Url.Action("EliminarPolicia", "Home", new { idPolicia = a.Idpolicia })'>
+                                @Html.AntiForgeryToken()
+
+                                @if (a.CantidadRutas == 0)
+                                {
+                                    <button onclick="return confirm('¿Estás seguro?');" type="submit" class="btn btn-danger">Eliminar</button>
+                                }
+                                @if (a.CantidadRutas > 0)
+                                {
+                                    <button onclick="return confirm('Este policía tiene rutas, elimínelas antes para poder continuar.');" type="button" class="btn btn-danger">Eliminar</button>
+                                }
+                            </form>
+                        </td>
+                        <td class="text-white">
+                            <a  class="btn btn-primary text-white" href='@Url.Action("ModificarPolicia", "Home", new { idPolicia = @a.Idpolicia })'>Modificar</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href='@Url.Action("ListarRutas", "Home", new { idPolicia = @a.Idpolicia })'>Rutas</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    document.getElementById("searchButton").addEventListener("click", function () {
+        var searchInput = document.getElementById("searchInput").value.toLowerCase();
+        var tableRows = document.querySelectorAll("tbody tr");
+
+        tableRows.forEach(function (row) {
+            var nameColumn = row.querySelector("td:nth-child(2)");
+            var name = nameColumn.textContent.toLowerCase();
+
+            if (name.includes(searchInput)) {
+                row.style.display = "table-row";
+            } else {
+                row.style.display = "none";
+            }
+        });
+    });
+</script>

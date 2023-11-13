@@ -1,0 +1,291 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #007bff;
+}
+
+
+.card {
+  width: 18rem;
+  margin-left: 37%;
+  margin-top: 15%;
+  background-color: #6f9ee6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 2s ease;
+}
+
+h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+label {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0090c5;
+}
+
+form {
+  margin-left: 8%;
+  margin-right: auto;
+  max-width: 800px; /* Ancho máximo del formulario */
+}
+
+form label, form input[type="text"], form input[type="number"], form input[type="time"], form input[type="date"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%; /* Ajustar el ancho al 100% */
+}
+
+.ponele{
+  margin-left: 37%;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evitar desplazamiento horizontal */
+  overflow-y: scroll; /* Mostrar la barra de desplazamiento vertical */
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento (compatible con Firefox) */
+  scrollbar-color: #0090c5 #001f3f; /* Color de la barra y del fondo (compatible con Firefox) */
+}
+
+/* Estilo para la barra de desplazamiento en navegadores WebKit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0090c5; /* Color del "pulgar" de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #001f3f; /* Color de fondo de la barra de desplazamiento */
+}
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.display-4 {
+  color: #00bfff;
+  font-size: 36px;
+  margin-bottom: 20px;
+  animation: glowing 3s infinite;
+}
+
+@keyframes glowing {
+  0% {
+      color: #00bfff;
+      text-shadow: 0 0 5px rgba(0, 191, 255, 0.8);
+  }
+  50% {
+      color: #fff;
+      text-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+  }
+  100% {
+      color: #00bfff;
+      text-shadow: 0 0 5px rgba(0, 191, 255, 0.8);
+  }
+}
+
+.btn-primary {
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0090c5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  animation: fadeIn 2s ease;
+}
+
+th, td {
+  border: 1px solid #00bfff;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #001f3f;
+}
+
+tr:hover {
+  background-color: #003d73;
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.navbar {
+  background-color: #1a1a1a; /* Color de fondo */
+  border-bottom: 2px solid #007bff; /* Borde inferior */
+  border-radius: 0; /* Esquina cuadrada */
+  transition: background-color 0.3s; /* Transición de color suave */
+}
+
+.navbar-brand {
+  color: #6f9ee6; /* Color del texto del logotipo */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  transition: font-size 0.3s; /* Transición de tamaño de fuente suave */
+}
+
+.navbar-toggler-icon {
+  background-color: #6f9ee6; /* Color del ícono del botón de menú */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Color de texto de los enlaces */
+  font-weight: bold; /* Grosor de la fuente */
+  transition: color 0.3s, font-size 0.3s; /* Transiciones suaves de color y tamaño de fuente */
+}
+
+.navbar-nav .navbar .navbar-brand .nav-link:hover {
+  color: #6f9ee6; /* Color de texto al pasar el mouse por encima */
+  font-size: 30px; /* Tamaño de fuente aumentado al pasar el mouse por encima */
+}
+
+/* Estilo personalizado para el elemento select */
+.custom-select {
+  appearance: none; /* Oculta la apariencia nativa del elemento select */
+  background-color: #fff; /* Color de fondo */
+  border: 2px solid #ececec; /* Borde */
+  border-radius: 5px; /* Borde redondeado */
+  padding: 5px 10px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  color: #333; /* Color de texto */
+  cursor: pointer; /* Cursor de flecha */
+  width: 100%; /* Ancho completo */
+  transition: border-color 0.3s; /* Transición suave del color del borde */
+}
+
+/* Estilo para el elemento select cuando se enfoca (clic o tabulación) */
+.custom-select:focus {
+  border-color: #ececec; /* Color del borde cuando se enfoca */
+  outline: none; /* Elimina el contorno predeterminado al enfocar */
+}
+
+/* Estilo para las opciones dentro del elemento select */
+.custom-select option {
+  background-color: #fff; /* Color de fondo de las opciones */
+  color: #333; /* Color de texto de las opciones */
+}
+
+/* Estilo para las opciones cuando se pasa el mouse por encima */
+.custom-select option:hover {
+  background-color: #ececec; /* Color de fondo al pasar el mouse por encima */
+  color: #fff; /* Color de texto al pasar el mouse por encima */
+}

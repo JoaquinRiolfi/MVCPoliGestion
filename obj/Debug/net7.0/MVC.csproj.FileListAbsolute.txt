@@ -1,0 +1,117 @@
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.AssemblyReference.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.AssemblyInfoInputs.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.AssemblyInfo.cs
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.CoreCompileInputs.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cs
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\appsettings.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.staticwebassets.runtime.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.exe
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.deps.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.runtimeconfig.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.pdb
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\Dapper.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.build.MVC.props
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVC.props
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVC.props
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\bundle\MVC.styles.css
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\projectbundle\MVC.bundle.scp.css
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.CopyComplete
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\refint\MVC.dll
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.pdb
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.genruntimeconfig.cache
+C:\Users\46955772\Downloads\PoliGestionApp-main\MVC\obj\Debug\net7.0\ref\MVC.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\appsettings.Development.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\appsettings.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.staticwebassets.runtime.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.exe
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.deps.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.runtimeconfig.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\MVC.pdb
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\Dapper.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.AssemblyReference.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.AssemblyInfoInputs.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.AssemblyInfo.cs
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.CoreCompileInputs.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cs
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.build.MVC.props
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVC.props
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVC.props
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.build.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\staticwebassets.development.json
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\bundle\MVC.styles.css
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\scopedcss\projectbundle\MVC.bundle.scp.css
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.csproj.CopyComplete
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\refint\MVC.dll
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.pdb
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\MVC.genruntimeconfig.cache
+D:\Juan Ferguson\5to\Proyecto\PoliGestionApp-main\MVC\obj\Debug\net7.0\ref\MVC.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\appsettings.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.staticwebassets.runtime.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.exe
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.deps.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.runtimeconfig.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\MVC.pdb
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\Dapper.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.csproj.AssemblyReference.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.AssemblyInfoInputs.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.AssemblyInfo.cs
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.csproj.CoreCompileInputs.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cs
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets\msbuild.build.MVC.props
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVC.props
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVC.props
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\scopedcss\bundle\MVC.styles.css
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\scopedcss\projectbundle\MVC.bundle.scp.css
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.csproj.CopyComplete
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\refint\MVC.dll
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.pdb
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\MVC.genruntimeconfig.cache
+C:\Users\devandroid\Downloads\PoliGestion\PoliGestionApp\MVC\obj\Debug\net7.0\ref\MVC.dll
